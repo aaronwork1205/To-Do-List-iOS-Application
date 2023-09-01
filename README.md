@@ -5,7 +5,7 @@
 
 Version 0.0.1-beta1
 
-<img src="assets/ReadME/1.jpg" alt="Image Description" width="300" height="200" />
-<img src="assets/ReadME/2.jpg" alt="Image Description" width="300" height="200" />
-<img src="assets/ReadME/3.jpg" alt="Image Description" width="300" height="200" />
-<img src="assets/ReadME/4.jpg" alt="Image Description" width="300" height="200" />
+<img src="assets/ReadME/1.jpg" alt="Image Description" width="217" height="462" />
+<img src="assets/ReadME/2.jpg" alt="Image Description" width="217" height="462" />
+<img src="assets/ReadME/3.jpg" alt="Image Description" width="217" height="462" />
+<img src="assets/ReadME/4.jpg" alt="Image Description" width="217" height="462" />
