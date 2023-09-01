@@ -25,14 +25,14 @@ export const MyDrawer = () => {
             >
               <Image
                 style={{ width: 100, resizeMode: "contain" }}
-                source={require("../assets/logos/logo.png")}
+                source={require("../assets/logos/gt_logo.png")}
               />
             </View>
             <DrawerItemList {...props} />
             <DrawerItem
               label="More info"
               onPress={() => {
-                Linking.openURL("http://google.com");
+                Linking.openURL("https://github.com/aaronwork1205/CS_8803_MAS_fall2023");
               }}
               icon={() => <Ionicons name="information" size={22} />}
             />

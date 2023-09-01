@@ -9,6 +9,7 @@ const EventList = () => {
           id={item.id}
           title={item.title}
           description={item.description}
+          location={item.location}
         />
       </View>
     );

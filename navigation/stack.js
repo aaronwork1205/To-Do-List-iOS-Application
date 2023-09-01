@@ -6,6 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 import ProfilesScreen from "../screens/profiles/profiles-screen";
 import ProfileDetailScreen from "../screens/profiles/profile-detail-screen";
 
+
 const Stack = createStackNavigator();
 export const HomeStack = () => {
   const navigation = useNavigation();
@@ -26,3 +27,5 @@ export const ProfileStack = () => {
     </Stack.Navigator>
   );
 };
+
+

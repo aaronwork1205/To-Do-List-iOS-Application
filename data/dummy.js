@@ -1,12 +1,8 @@
 export const DUMMY_DATA = [
-  { id: 1, title: "test title 1", description: "test description 1" },
-  { id: 2, title: "test title 2", description: "test description 2" },
-  { id: 3, title: "test title 3", description: "test description 3" },
-  { id: 4, title: "test title 4", description: "test description 4" },
-  { id: 5, title: "test title 5", description: "test description 5" },
-  { id: 6, title: "test title 6", description: "test description 6" },
-  { id: 7, title: "test title 7", description: "test description 7" },
-  { id: 8, title: "test title 8", description: "test description 8" },
-  { id: 9, title: "test title 9", description: "test description 9" },
-  { id: 10, title: "test title 10", description: "test description 10" },
+  { id: 1, title: "CS 8803 MAS", description: "Project Interview" ,location: "Scheller College of Business"},
+  { id: 2, title: "CS 8803 MAS", description: "Project Discussion", location:"College of Computing Gatech" },
+  { id: 3, title: "CS 8803 MAS", description: "Deliverable Presentation", location:"Pettit Microelectronics Building"},
+  { id: 4, title: "CS 8803 MAS", description: "Functionality Showcase", location:"Georgia Institute of Technology School of Physics" },
+  { id: 5, title: "CS 8803 MAS", description: "Group Discussion" , location:"Georgia Tech Library" },
+  { id: 6, title: "CS 8803 MAS", description: "In person meeting" , location:"Russ Chandler Stadium" }
 ];
