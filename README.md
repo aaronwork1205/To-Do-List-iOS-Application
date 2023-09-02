@@ -2,7 +2,8 @@
 
 ## Author: Hanqi Hua, Wenhao Wang
 
+Version 0.0.2-beta
 
-Version 0.0.1-beta1
+Version 0.0.1-beta
 
 ![Another Image](assets/ReadME/1.jpg)
