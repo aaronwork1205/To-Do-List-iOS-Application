@@ -8,7 +8,7 @@ import { SafeAreaView, Image, View, Linking } from "react-native";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 const Drawer = createDrawerNavigator();
 
-export const MyDrawer = () => {
+export const AppDrawer = () => {
   return (
     <Drawer.Navigator
       drawerContent={(props) => {

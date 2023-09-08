@@ -3,7 +3,7 @@ import { Text, View, StyleSheet } from "react-native";
 export const QrCodeScreen = () => {
   return (
     <View style={styles.screen}>
-      <Text>QR code skan</Text>
+      <Text>QR code scan</Text>
     </View>
   );
 };
