@@ -8,7 +8,7 @@ Version 0.0.2-beta
 
 
 
-Version 0.0.1-beta
+
 
 
 <img src="assets/ReadME/V0.0.1-1.jpg" alt="Image Description" width="217" height="462" />

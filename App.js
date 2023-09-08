@@ -3,17 +3,17 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { HomeStack, MapStack } from "./navigation/stack";
 import "react-native-gesture-handler";
-import { MyDrawer } from "./navigation/drawer";
+import { AppDrawer } from "./navigation/drawer";
+import { AuthStack } from "./navigation/authStack";
+
 
 export default function App() {
+
   return (
     <NavigationContainer>
-      {/* <HomeStack /> */}
-      <MyDrawer />
+      <AuthStack />
+      {/* <AppDrawer /> */}
       <StatusBar style="light" />
-
-
-
     </NavigationContainer>
   );
 }
