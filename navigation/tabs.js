@@ -19,7 +19,7 @@ export const HomeTabs = () => {
           if (route.name === "HomeTabs") {
             iconName = focused ? "home" : "home-outline";
           } else if (route.name === "Qrcode") {
-            iconName = focused ? "qr-code" : "qr-code-outline";
+            iconName = focused ? "ios-person" : "ios-person-outline";
           }
           return (
             <Ionicons
