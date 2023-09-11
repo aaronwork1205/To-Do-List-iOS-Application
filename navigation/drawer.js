@@ -6,9 +6,18 @@ import {
 import { HomeStack, ProfileStack } from "./stack";
 import { SafeAreaView, Image, View, Linking } from "react-native";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
+
+import React, { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
+
 const Drawer = createDrawerNavigator();
 
 export const AppDrawer = () => {
+  const { setUserInfo, setUserToken } = useContext(AuthContext);
+  const handleLogOut = () => {
+    setUserInfo(null);
+    setUserToken(null);
+  };
   return (
     <Drawer.Navigator
       drawerContent={(props) => {
@@ -32,9 +41,16 @@ export const AppDrawer = () => {
             <DrawerItem
               label="More info"
               onPress={() => {
-                Linking.openURL("https://github.com/aaronwork1205/CS_8803_MAS_fall2023");
+                Linking.openURL(
+                  "https://github.com/aaronwork1205/CS_8803_MAS_fall2023"
+                );
               }}
               icon={() => <Ionicons name="information" size={22} />}
+            />
+            <DrawerItem
+              label="Log out"
+              onPress={handleLogOut}
+              icon={() => <Ionicons name="log-out-outline" size={22} />}
             />
           </SafeAreaView>
         );
