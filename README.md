@@ -1,18 +1,9 @@
 # CS_8803_MAS_fall2023
-
+# To-do-list (Task Manager) app
 **Authors:** Hanqi Hua, Wenhao Wang
 
+This is the front-end part of our task manager app for CS 8803 MAS. We mainly use React Native in this front-end development. <br>
 
-Version 0.0.2-beta
-<img src="assets/ReadME/V0.0.2-1.png" alt="Image Description" />
-<img src="assets/ReadME/V0.0.2-2.png" alt="Image Description" />
+Users are able to create an account for themselves and log in using that account to our app. In the app, users are able to create, read, update, and delete their to do lists. 
 
-
-
-
-
-
-<img src="assets/ReadME/V0.0.1-1.jpg" alt="Image Description" width="217" height="462" />
-<img src="assets/ReadME/V0.0.1-2.jpg" alt="Image Description" width="217" height="462" />
-<img src="assets/ReadME/V0.0.1-3.jpg" alt="Image Description" width="217" height="462" />
-<img src="assets/ReadME/V0.0.1-4.jpg" alt="Image Description" width="217" height="462" />
+The backend of our app is here: https://github.com/huahanqi/CS8803-task-manager-backend
