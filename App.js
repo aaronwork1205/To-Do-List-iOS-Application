@@ -1,22 +1,20 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
-import {
-  ActivityIndicator,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { HomeStack, MapStack } from "./navigation/stack";
 import "react-native-gesture-handler";
-import { AuthProvider } from "./context/AuthContext";
-import AppNav from "./navigation/appNav";
+import { AppDrawer } from "./navigation/drawer";
+import { AuthStack } from "./navigation/authStack";
+
 
 export default function App() {
+
   return (
-    <AuthProvider>
-      <AppNav />
+    <NavigationContainer>
+      <AuthStack />
+      {/* <AppDrawer /> */}
       <StatusBar style="light" />
-    </AuthProvider>
+    </NavigationContainer>
   );
 }
 

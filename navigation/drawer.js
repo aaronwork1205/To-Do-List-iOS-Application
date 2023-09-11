@@ -32,9 +32,7 @@ export const AppDrawer = () => {
             <DrawerItem
               label="More info"
               onPress={() => {
-                Linking.openURL(
-                  "https://github.com/aaronwork1205/CS_8803_MAS_fall2023"
-                );
+                Linking.openURL("https://github.com/aaronwork1205/CS_8803_MAS_fall2023");
               }}
               icon={() => <Ionicons name="information" size={22} />}
             />
