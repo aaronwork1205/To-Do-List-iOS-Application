@@ -20,3 +20,8 @@ npm install && npx expo start
 ```
 Then hit i to start an simulator. 
 You can also download expo go app, scan the QR code generated in the terminal, and run our app on your phone. 
+
+
+## Reference
+We learned how to create mobile app with React Native from this tutorial: https://www.youtube.com/watch?v=Jyj-50T4MqQ&list=PLgjw1dR712joAlRdIc6BMNhX6_hrsL7kE <br>
+and use its front-end code as the starting point for our To-do-list App. 
