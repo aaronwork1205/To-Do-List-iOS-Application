@@ -12,7 +12,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { AuthContext } from "../../context/AuthContext";
 import axios from "axios";
 import { BASE_URL } from "../../config";
-
+import { TouchableWithoutFeedback, Keyboard } from "react-native";
 const EventListV2 = () => {
   const [task, setTask] = useState({
     id: "",
@@ -188,38 +188,40 @@ const EventListV2 = () => {
   );
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>ToDo List</Text>
-      <TextInput
-        style={styles.input}
-        placeholder="Enter date"
-        value={task.date}
-        onChangeText={(text) => setTask({ ...task, date: text })}
-      />
-      <TextInput
-        style={styles.input}
-        placeholder="Enter task"
-        value={task.description}
-        onChangeText={(text) => setTask({ ...task, description: text })}
-      />
-      <TextInput
-        style={styles.input}
-        placeholder="Enter location"
-        value={task.location}
-        onChangeText={(text) => setTask({ ...task, location: text })}
-      />
-      <Button
-        style={styles.addButtonText}
-        onPress={handleAddTask}
-        title={editIndex !== -1 ? "Update Task" : "Add Task"}
-      ></Button>
-      <FlatList
-        data={tasks}
-        style={{ marginbottom: 20 }}
-        renderItem={renderItem}
-        keyExtractor={(item, index) => index.toString()}
-      />
-    </View>
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+      <View style={styles.container}>
+        <Text style={styles.title}>ToDo List</Text>
+        <TextInput
+          style={styles.input}
+          placeholder="Enter date"
+          value={task.date}
+          onChangeText={(text) => setTask({ ...task, date: text })}
+        />
+        <TextInput
+          style={styles.input}
+          placeholder="Enter task"
+          value={task.description}
+          onChangeText={(text) => setTask({ ...task, description: text })}
+        />
+        <TextInput
+          style={styles.input}
+          placeholder="Enter location"
+          value={task.location}
+          onChangeText={(text) => setTask({ ...task, location: text })}
+        />
+        <Button
+          style={styles.addButtonText}
+          onPress={handleAddTask}
+          title={editIndex !== -1 ? "Update Task" : "Add Task"}
+        ></Button>
+        <FlatList
+          data={tasks}
+          style={{ marginbottom: 20 }}
+          renderItem={renderItem}
+          keyExtractor={(item, index) => index.toString()}
+        />
+      </View>
+    </TouchableWithoutFeedback>
   );
 };
 
