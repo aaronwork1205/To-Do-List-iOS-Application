@@ -6,7 +6,7 @@
 ## Project Introduction
 This is the front-end part of our task manager app for CS 8803 MAS. We mainly use React Native in this front-end development. <br>
 
-Users are able to create an account for themselves and log in using that account to our app. In the app, users are able to create, read, update, and delete their to do lists. 
+In this app, users can register an account for themselves and log-in and log-out of the account. Once they log-in, they’ll be able to create, read, update, and delete their to-do-lists by typing the task name, its respective time and location. We also integrate a third-party map APIs so that when users click one of the items in their to-do-list, they can see where the events happen on the map based on what they typed in on the location field. The backend is used to respond responses when users register new accounts and log-in with existing accounts. It also responds to requests sent by users when they want to create, read, update, and delete tasks in their To-do List. All the data changes will be reflected in our MongoDB database if they’re properly requested. 
 
 The backend of our app is here: https://github.com/huahanqi/CS8803-task-manager-backend
 
