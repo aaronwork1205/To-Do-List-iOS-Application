@@ -25,3 +25,7 @@ You can also download expo go app, scan the QR code generated in the terminal, a
 ## Reference
 We learned how to create mobile app with React Native from this tutorial: https://www.youtube.com/watch?v=Jyj-50T4MqQ&list=PLgjw1dR712joAlRdIc6BMNhX6_hrsL7kE <br>
 and use its front-end code as the starting point for our To-do-list App. 
+
+## Future work
+Some of the future works can be done for our app. First, we should consider more account authorization scenarios to our front-end (what if they enter the wrong account password, what if they try to register an account with an email address that’s already in use). Moreover, some additional features can be added to our app. Maybe people can invite friends to their event, and when they add participants for one of the events, the same event will appear on invitee’s to-do-list as well.
+
