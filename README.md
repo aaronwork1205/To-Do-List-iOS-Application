@@ -27,5 +27,6 @@ We learned how to create mobile app with React Native from this tutorial: https:
 and use its front-end code as the starting point for our To-do-list App. 
 
 ## Future work
-Some of the future works can be done for our app. First, we should consider more account authorization scenarios to our front-end (what if they enter the wrong account password, what if they try to register an account with an email address that’s already in use). Moreover, some additional features can be added to our app. Maybe people can invite friends to their event, and when they add participants for one of the events, the same event will appear on invitee’s to-do-list as well.
+Some of the future work can be done for our app. First, we should consider more account authorization scenarios on our front end (what if they enter the wrong account password? What if they try registering an account with an email address already in use?). Moreover, we can also add some additional features. For instance, people can invite friends to their event, and when they add participants for one of the events, the same event will also appear on the invitee's to-do list. 
+
 
