@@ -48,6 +48,9 @@ const Register = () => {
       // setPasswordConfirmed("");
       // setEmail("");
       register(username, email, password);
+      Alert.alert("Successfully registered!", "", [
+        { text: "Okay!", onPress: () => navigation.navigate("sign_in") },
+      ]);
     }
   };
 
