@@ -1,4 +1,3 @@
-# CS_8803_MAS_fall2023
 # To-do-list (Task Manager) app
 **Authors:** Hanqi Hua, Wenhao Wang
 
